@@ -176,7 +176,7 @@ function fade(ele,opacity){
 	}
 }
 window.onload=function(){
-	/*showDropdown();*/
+	showDropdown();
 	var sideMenu=document.getElementById("side-menu");
 	addEvent(sideMenu,"mouseover",function(event){
 		showSubMenu(event);
